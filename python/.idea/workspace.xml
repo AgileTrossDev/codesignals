@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2201072e-806a-4515-85a0-ab39037c9dd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/addBorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/alphabeticShift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/alternatingSums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/areEquallyStrong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/areSimilar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/arrayChange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/arrayMaximalAdjacentDifference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/arrayReplace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/avoidObstacles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/boxBlur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/chessBoardCellColor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/circleOfNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/commonCharacterCount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/evenDigitsOnly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/isIPv4Address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/isLucky.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/minesweeper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/palindromeRearranging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/reverseParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/sortByHeight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arcade/variableName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/obj_cnt/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/obj_cnt/lib/obj_cnt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/obj_cnt/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/obj_cnt/test/test_obj_cnt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uber/.python-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uber/fare_estimator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uber/perfectCity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,23 +17,23 @@
     <session id="-1656148078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11354" />
+          <entry key="py" value="14473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11354" />
+          <entry key="Python" value="14473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,46 +51,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="128" lean-forward="true" selection-end-line="145" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" />
               <folding>
-                <marker date="1541661058579" expanded="true" signature="11:16" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="11:622" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="725:4126" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="1068:1097" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="1918:2052" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="2117:2122" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="2117:2520" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="2546:2547" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="2546:2551" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="2546:3860" ph="..." />
-                <marker date="1541661058579" expanded="true" signature="4157:4163" ph="..." />
+                <marker date="1541734772295" expanded="true" signature="73:190" ph="..." />
+                <marker date="1541734772295" expanded="true" signature="202:3838" ph="..." />
+                <marker date="1541734772295" expanded="true" signature="515:617" ph="..." />
+                <marker date="1541734772295" expanded="true" signature="633:1168" ph="..." />
+                <marker date="1541734772295" expanded="true" signature="1185:1191" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
+            <state relative-caret-position="2025">
+              <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
               <folding>
-                <element signature="e#104#183#0" />
-                <element signature="e#226#365#0" />
-                <element signature="e#996#1043#0" />
-                <element signature="e#1110#1158#0" />
-                <element signature="e#1205#1811#0" />
-                <element signature="e#1363#1867#0" />
-                <element signature="e#2405#3053#0" />
-                <element signature="e#3065#3676#0" />
-                <marker date="1541662782118" expanded="true" signature="60:196" ph="..." />
-                <marker date="1541662782118" expanded="true" signature="1086:8369" ph="..." />
-                <marker date="1541662782118" expanded="true" signature="3837:5221" ph="..." />
-                <marker date="1541662782118" expanded="true" signature="6508:7315" ph="..." />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +86,7 @@
       <find>width</find>
       <find>is_right_valid</find>
       <find>msg</find>
+      <find>cleaned</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -156,8 +110,8 @@
         <option value="$PROJECT_DIR$/core/graph/test/test_my_graph.py" />
         <option value="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/test/test_algo.py" />
         <option value="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/lib/algo.py" />
-        <option value="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" />
         <option value="$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py" />
+        <option value="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" />
       </list>
     </option>
   </component>
@@ -171,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +219,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -318,16 +271,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py</url>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -392,10 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <marker date="1541573935587" expanded="true" signature="5036:5141" ph="..." />
-            <marker date="1541573935587" expanded="true" signature="5158:5245" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,49 +342,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <marker date="1541571521835" expanded="true" signature="38:44" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="128" lean-forward="true" selection-end-line="145" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" />
           <folding>
-            <marker date="1541661058579" expanded="true" signature="11:16" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="11:622" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="725:4126" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="1068:1097" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="1918:2052" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="2117:2122" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="2117:2520" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="2546:2547" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="2546:2551" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="2546:3860" ph="..." />
-            <marker date="1541661058579" expanded="true" signature="4157:4163" ph="..." />
+            <marker date="1541734772295" expanded="true" signature="73:190" ph="..." />
+            <marker date="1541734772295" expanded="true" signature="202:3838" ph="..." />
+            <marker date="1541734772295" expanded="true" signature="515:617" ph="..." />
+            <marker date="1541734772295" expanded="true" signature="633:1168" ph="..." />
+            <marker date="1541734772295" expanded="true" signature="1185:1191" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
+        <state relative-caret-position="2025">
+          <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
           <folding>
-            <element signature="e#104#183#0" />
-            <element signature="e#226#365#0" />
-            <element signature="e#996#1043#0" />
-            <element signature="e#1110#1158#0" />
-            <element signature="e#1205#1811#0" />
-            <element signature="e#1363#1867#0" />
-            <element signature="e#2405#3053#0" />
-            <element signature="e#3065#3676#0" />
-            <marker date="1541662782118" expanded="true" signature="60:196" ph="..." />
-            <marker date="1541662782118" expanded="true" signature="1086:8369" ph="..." />
-            <marker date="1541662782118" expanded="true" signature="3837:5221" ph="..." />
-            <marker date="1541662782118" expanded="true" signature="6508:7315" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

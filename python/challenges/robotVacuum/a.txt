@@ -1,233 +1,35 @@
 ============================= test session starts ==============================
-platform darwin -- Python 3.6.5, pytest-3.10.0, py-1.7.0, pluggy-0.8.0 -- /Users/alberta/.pyenv/versions/3.6.5/bin/python3.6
-cachedir: .pytest_cache
+platform darwin -- Python 3.6.5, pytest-3.10.0, py-1.7.0, pluggy-0.8.0
 rootdir: /Users/alberta/Developer/git/codesignals/python/challenges/robotVacuum, inifile:
-collecting ... collected 13 items
+plugins: timeout-1.3.2
+collected 6 items
 
-test/test_algo.py::TestAlgo::test_pod_construct FAILED
-test/test_algo.py::TestAlgo::test_pod_collect FAILED
-test/test_algo.py::TestAlgo::test_pod_move FAILED
-test/test_algo.py::TestAlgo::test_RobVac_create FAILED
-test/test_algo.py::TestAlgo::test_get_pod_stats FAILED
-test/test_algo.py::TestAlgo::test_right_boarder_check FAILED
-test/test_algo.py::TestAlgo::test_left_boarder_check FAILED
-test/test_algo.py::TestAlgo::test_top_boarder_check FAILED
-test/test_algo.py::TestAlgo::test_bot_boarder_check FAILED
-test/test_algo.py::TestAlgo::test_rv_next_dir FAILED
-test/test_algo.py::TestAlgo::test_rv_move FAILED
-test/test_algo.py::TestAlgo::test_perform_pod_collect FAILED
-test/test_algo.py::TestAlgo::test_robotVacuum FAILED
+test/test_algo.py .....FE                                                [100%]
 
+==================================== ERRORS ====================================
+_______________ ERROR at teardown of TestAglo.test_robotVacuum_5 _______________
+
+self = <contextlib._GeneratorContextManager object at 0x107c8a438>, type = None
+value = None, traceback = None
+
+    def __exit__(self, type, value, traceback):
+        if type is None:
+            try:
+>               next(self.gen)
+E               OSError: [Errno 22] Invalid argument
+
+/Users/alberta/.pyenv/versions/3.6.5/lib/python3.6/contextlib.py:88: OSError
 =================================== FAILURES ===================================
-_________________________ TestAlgo.test_pod_construct __________________________
-
-self = <test.test_algo.TestAlgo object at 0x10e8abf28>
-
-    def test_pod_construct(self):
->       a = Pod(0, 0)
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-test/test_algo.py:7: TypeError
-__________________________ TestAlgo.test_pod_collect ___________________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea2a5f8>
-
-    def test_pod_collect(self):
->       a = Pod(0, 0)
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-test/test_algo.py:14: TypeError
-____________________________ TestAlgo.test_pod_move ____________________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea26390>
-
-    def test_pod_move(self):
->       a = Pod(0, 0)
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-test/test_algo.py:22: TypeError
-_________________________ TestAlgo.test_RobVac_create __________________________
-
-self = <test.test_algo.TestAlgo object at 0x10e9c0208>
-
-    def test_RobVac_create(self):
->       a = RobVac(5)
-
-test/test_algo.py:45: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10e9d50b8>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-_________________________ TestAlgo.test_get_pod_stats __________________________
-
-self = <test.test_algo.TestAlgo object at 0x10e892f28>
-
-    def test_get_pod_stats(self):
->       a = RobVac(5)
-
-test/test_algo.py:50: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea2a6d8>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-______________________ TestAlgo.test_right_boarder_check _______________________
-
-self = <test.test_algo.TestAlgo object at 0x10e9a9e48>
-
-    def test_right_boarder_check(self):
->       a = RobVac(5)
-
-test/test_algo.py:56: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10e9a9c18>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-_______________________ TestAlgo.test_left_boarder_check _______________________
-
-self = <test.test_algo.TestAlgo object at 0x10e9c0588>
-
-    def test_left_boarder_check(self):
->       a = RobVac(5)
-
-test/test_algo.py:79: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea1b048>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-_______________________ TestAlgo.test_top_boarder_check ________________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea57208>
-
-    def test_top_boarder_check(self):
->       a = RobVac(5)
-
-test/test_algo.py:98: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea57240>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-_______________________ TestAlgo.test_bot_boarder_check ________________________
-
-self = <test.test_algo.TestAlgo object at 0x10e8ab2b0>
-
-    def test_bot_boarder_check(self):
->       a = RobVac(5)
-
-test/test_algo.py:123: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10e9c06d8>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-__________________________ TestAlgo.test_rv_next_dir ___________________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea267b8>
-
-    def test_rv_next_dir(self):
->       a = RobVac(5)
-
-test/test_algo.py:148: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea26ac8>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-____________________________ TestAlgo.test_rv_move _____________________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea2aba8>
-
-    def test_rv_move(self):
->       a = RobVac(5)
-
-test/test_algo.py:189: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea2a3c8>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-______________________ TestAlgo.test_perform_pod_collect _______________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea39f98>
-
-    def test_perform_pod_collect(self):
-        board = [[0, 5, 4, 10, 0, 8],
-                 [7, 2, 7, 4, 7, 2],
-                 [2, 2, 10, 1, 7, 6]]
-    
->       a = RobVac(5)
-
-test/test_algo.py:233: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea39198>, max_collect = 5
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-__________________________ TestAlgo.test_robotVacuum ___________________________
-
-self = <test.test_algo.TestAlgo object at 0x10ea152e8>
-
-    def test_robotVacuum(self):
-        board = [[0, 5, 4, 10, 0, 8],
-                 [7, 2, 7, 4, 7, 2],
-                 [2, 2, 10, 1, 7, 6]]
-    
-        maxDirt = 10
-    
-    
->       assert robotVacuum(board, maxDirt) == [18, 27, 13, 26]
-
-test/test_algo.py:266: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-rv/aglo.py:126: in robotVacuum
-    bot = RobVac(maxDirt)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <rv.aglo.RobVac object at 0x10ea152b0>, max_collect = 10
-
-    def __init__(self, max_collect):
->       self.pods=[Pod(0, 0), Pod(1, 0), Pod(0, 1), Pod(1, 1)]
-E       TypeError: __init__() missing 1 required positional argument: 's'
-
-rv/aglo.py:41: TypeError
-========================== 13 failed in 0.22 seconds ===========================
+_________________________ TestAglo.test_robotVacuum_5 __________________________
+
+self = <contextlib._GeneratorContextManager object at 0x108b68b70>, type = None
+value = None, traceback = None
+
+    def __exit__(self, type, value, traceback):
+        if type is None:
+            try:
+>               next(self.gen)
+E               OSError: [Errno 22] Invalid argument
+
+/Users/alberta/.pyenv/versions/3.6.5/lib/python3.6/contextlib.py:88: OSError
+================ 1 failed, 5 passed, 1 error in 182.39 seconds =================
