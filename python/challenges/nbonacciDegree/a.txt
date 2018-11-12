@@ -1,0 +1,69 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.6.5, pytest-3.10.0, py-1.7.0, pluggy-0.8.0
+rootdir: /Users/alberta/Developer/git/codesignals/python/challenges/nbonacciDegree, inifile:
+collected 3 items
+
+test/test_nbonacciDegree.py . INNER: 1 0 1 1 3
+TRYING AGAIN: False False
+LOOP(1) False
+ INNER: 3 0 2 2 3
+ MATCH
+ WE ARE GOOD
+LOOP(2) True
+. INNER: 0 0 1 1 14
+TRYING AGAIN: False False
+LOOP(1) False
+ INNER: 6 0 2 2 14
+TRYING AGAIN: False False
+LOOP(2) False
+ INNER: 4 0 3 3 14
+TRYING AGAIN: False False
+LOOP(3) False
+ INNER: 7 0 4 4 14
+ MATCH
+ INNER: 14 1 4 5 14
+TRYING AGAIN: False False
+LOOP(4) False
+ INNER: 14 0 5 5 14
+ MATCH
+ INNER: 28 1 5 6 14
+TRYING AGAIN: False False
+LOOP(5) False
+ INNER: 28 0 6 6 14
+TRYING AGAIN: False False
+LOOP(6) False
+ INNER: 50 0 7 7 14
+TRYING AGAIN: False False
+LOOP(7) False
+ INNER: 96 0 8 8 14
+TRYING AGAIN: False False
+LOOP(8) False
+ INNER: 185 0 9 9 14
+TRYING AGAIN: False False
+LOOP(9) False
+ INNER: 356 0 10 10 14
+TRYING AGAIN: False False
+LOOP(10) False
+ INNER: 684 0 11 11 14
+TRYING AGAIN: False False
+LOOP(11) False
+ INNER: 1318 0 12 12 14
+TRYING AGAIN: False False
+LOOP(12) False
+ INNER: 2540 0 13 13 14
+WE ARE BAD
+F
+
+=================================== FAILURES ===================================
+________________________ TestNBonacciDegree.test_case_2 ________________________
+
+self = <test.test_nbonacciDegree.TestNBonacciDegree object at 0x10b81f160>
+
+    def test_case_2(self):
+        input = [0, 6, -2, 3, 7, 14, 22, 46, 89, 171, 328, 634, 1222, 2355]
+>       assert 4 == nbonacciDegree(input)
+E       assert 4 == -1
+E        +  where -1 = nbonacciDegree([0, 6, -2, 3, 7, 14, ...])
+
+test/test_nbonacciDegree.py:19: AssertionError
+====================== 1 failed, 2 passed in 0.06 seconds ======================

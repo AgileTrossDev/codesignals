@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2201072e-806a-4515-85a0-ab39037c9dd8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/cmdoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/utils/hashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/utils/hashes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/robotVacuum/venv/lib/python3.6/site-packages/pip/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/cmdoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/utils/hashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/utils/hashes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/venv/lib/python3.6/site-packages/pip/wheel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,33 +25,37 @@
     <session id="-1656148078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14473" />
+          <entry key="dummy" value="4" />
+          <entry key="py" value="18795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="14473" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="18795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -51,29 +63,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/challenges/jumpingGaps/test/test_algo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="675">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <marker date="1541734772295" expanded="true" signature="73:190" ph="..." />
-                <marker date="1541734772295" expanded="true" signature="202:3838" ph="..." />
-                <marker date="1541734772295" expanded="true" signature="515:617" ph="..." />
-                <marker date="1541734772295" expanded="true" signature="633:1168" ph="..." />
-                <marker date="1541734772295" expanded="true" signature="1185:1191" ph="..." />
+                <marker date="1542041070027" expanded="true" signature="100:101" ph="..." />
+                <marker date="1542041070027" expanded="true" signature="100:106" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/challenges/jumpingGaps/test/test_falling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="103" column="58" lean-forward="true" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/challenges/jumpingGaps/jg/algo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1542041001876" expanded="true" signature="185:1116" ph="..." />
+                <marker date="1542041001876" expanded="true" signature="337:1021" ph="..." />
+                <marker date="1542041001876" expanded="true" signature="1066:1072" ph="..." />
+                <marker date="1542041001876" expanded="true" signature="1066:1116" ph="..." />
+                <marker date="1542041001876" expanded="true" signature="1141:1146" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,6 +109,7 @@
       <find>is_right_valid</find>
       <find>msg</find>
       <find>cleaned</find>
+      <find>seq_end</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -112,6 +135,13 @@
         <option value="$PROJECT_DIR$/challenges/secretAgentsMeetingProposal/lib/algo.py" />
         <option value="$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py" />
         <option value="$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py" />
+        <option value="$PROJECT_DIR$/challenges/nbonacciDegree/algo/nbonacciDegree.py" />
+        <option value="$PROJECT_DIR$/challenges/nbonacciDegree/test/nbonacciDegree.py" />
+        <option value="$PROJECT_DIR$/challenges/nbonacciDegree/test/test_nbonacciDegree.py" />
+        <option value="$PROJECT_DIR$/challenges/nbonacciDegree/lib/algo.py" />
+        <option value="$PROJECT_DIR$/challenges/jumpingGaps/jg/algo.py" />
+        <option value="$PROJECT_DIR$/challenges/jumpingGaps/test/test_algo.py" />
+        <option value="$PROJECT_DIR$/challenges/jumpingGaps/test/test_falling.py" />
       </list>
     </option>
   </component>
@@ -141,40 +171,20 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="robotVacuum" type="462c0819:PsiDirectoryNode" />
+              <item name="jumpingGaps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="robotVacuum" type="462c0819:PsiDirectoryNode" />
-              <item name="rv" type="462c0819:PsiDirectoryNode" />
+              <item name="jumpingGaps" type="462c0819:PsiDirectoryNode" />
+              <item name="jg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="robotVacuum" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="secretAgentsMeetingProposal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="secretAgentsMeetingProposal" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="secretAgentsMeetingProposal" type="462c0819:PsiDirectoryNode" />
+              <item name="jumpingGaps" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -219,12 +229,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -270,6 +281,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py</url>
+          <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -347,25 +359,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/rv/aglo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
           <folding>
-            <marker date="1541734772295" expanded="true" signature="73:190" ph="..." />
-            <marker date="1541734772295" expanded="true" signature="202:3838" ph="..." />
-            <marker date="1541734772295" expanded="true" signature="515:617" ph="..." />
-            <marker date="1541734772295" expanded="true" signature="633:1168" ph="..." />
-            <marker date="1541734772295" expanded="true" signature="1185:1191" ph="..." />
+            <marker date="1541797109590" expanded="true" signature="115:1038" ph="..." />
+            <marker date="1541797109590" expanded="true" signature="569:602" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/nbonacciDegree/test/nbonacciDegree.py" />
+    <entry file="file://$PROJECT_DIR$/challenges/nbonacciDegree/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/nbonacciDegree/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/nbonacciDegree/lib/algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/nbonacciDegree/test/test_nbonacciDegree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/robotVacuum/test/test_algo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/jumpingGaps/jg/algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <marker date="1542041001876" expanded="true" signature="185:1116" ph="..." />
+            <marker date="1542041001876" expanded="true" signature="337:1021" ph="..." />
+            <marker date="1542041001876" expanded="true" signature="1066:1072" ph="..." />
+            <marker date="1542041001876" expanded="true" signature="1066:1116" ph="..." />
+            <marker date="1542041001876" expanded="true" signature="1141:1146" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/jumpingGaps/test/test_algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <marker date="1542041070027" expanded="true" signature="100:101" ph="..." />
+            <marker date="1542041070027" expanded="true" signature="100:106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/jumpingGaps/test/test_falling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="103" column="58" lean-forward="true" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
         </state>
       </provider>
     </entry>
