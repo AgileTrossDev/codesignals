@@ -2,9 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2201072e-806a-4515-85a0-ab39037c9dd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/jumpingGaps/jg/algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/jumpingGaps/jg/algo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/jumpingGaps/test/test_falling.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/jumpingGaps/test/test_falling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/bst_removal/bst_removal.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/bst_removal/bst_removal.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/bst_removal/bst_removal.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/bst_removal/bst_removal.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/bst_removal/bst_removal.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/bst_removal/bst_removal/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/challenges/decodeString/decodeString.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/challenges/decodeString/decodeString.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/challenges/decodeString/decodeString.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/challenges/decodeString/decodeString.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/challenges/decodeString/decodeString.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/challenges/decodeString/decodeString/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/decodeString/decodeString.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/decodeString/decodeString.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/decodeString/decodeString.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/decodeString/decodeString.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/decodeString/decodeString.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/decodeString/decodeString/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/graph_distance/graph_distance/graph_distance.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/graph_distance/graph_distance/graph_distance.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/graph_distance/graph_distance/graph_distance.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/graph_distance/graph_distance/graph_distance.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/graph_distance/graph_distance/graph_distance.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/graph_distance/graph_distance/graph_distance/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/longest_path/longest_path.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/longest_path/longest_path.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/longest_path/longest_path.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/longest_path/longest_path.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/longest_path/longest_path.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/dfs_bfs/longest_path/longest_path/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bfs_graph/bfs_graph.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bfs_graph/bfs_graph.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bfs_graph/bfs_graph.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bfs_graph/bfs_graph.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bfs_graph/bfs_graph.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bfs_graph/bfs_graph/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bgs_graph/bfs_search.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bgs_graph/bfs_search.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/bgs_graph/bfs_search.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/binary_tree_left_view/binary_tree_left_view.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/binary_tree_left_view/binary_tree_left_view.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/binary_tree_left_view/binary_tree_left_view.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/binary_tree_left_view/binary_tree_left_view.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/binary_tree_left_view/binary_tree_left_view.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/binary_tree_left_view/binary_tree_left_view/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/dfs_graph/dfs_graph.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/dfs_graph/dfs_graph.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/dfs_graph/dfs_graph.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/dfs_graph/dfs_graph.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/dfs_graph/dfs_graph.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/dfs_graph/dfs_graph/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/longest_path/longest_path.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/longest_path/longest_path.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/longest_path/longest_path.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/longest_path/longest_path.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/longest_path/longest_path.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/external_challenges/dfs_graph/longest_path/longest_path/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/trees/findSubstrings/findSubstrings.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/trees/findSubstrings/findSubstrings.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/trees/findSubstrings/findSubstrings.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/trees/findSubstrings/findSubstrings.xcodeproj/project.xcworkspace/xcuserdata/alberta.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/trees/findSubstrings/findSubstrings.xcodeproj/xcuserdata/alberta.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c_plus_plus/trees/findSubstrings/findSubstrings/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +76,7 @@
     <session id="-1656148078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -24,9 +84,9 @@
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/uber/parkingSpot/test/test_main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="753">
-              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding>
                 <marker date="1543646018504" expanded="true" signature="934:943" ph="..." />
               </folding>
@@ -212,6 +272,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -421,7 +482,7 @@
     <entry file="file://$PROJECT_DIR$/uber/parkingSpot/test/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding>
             <marker date="1543646018504" expanded="true" signature="934:943" ph="..." />
           </folding>
