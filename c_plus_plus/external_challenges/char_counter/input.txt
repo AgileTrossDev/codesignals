@@ -1,0 +1,83 @@
+{
+  "initial": true,
+  "telemetry": [
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M9",
+      "timestamp": "2018-12-03T16:36:51.126608Z",
+      "value": "90"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "FSW_MO2SPC_TargetTime",
+      "timestamp": "2018-12-03T16:53:39.790260Z",
+      "value": "10"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M5",
+      "timestamp": "2018-12-03T16:36:51.124867Z",
+      "value": "50"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M7",
+      "timestamp": "2018-12-03T16:36:51.125742Z",
+      "value": "70"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "FSW_MsnOps_ImgErr_Cnt",
+      "timestamp": "2018-12-03T16:53:39.788479Z",
+      "value": "5"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M2",
+      "timestamp": "2018-12-03T16:36:51.123538Z",
+      "value": "20"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M3",
+      "timestamp": "2018-12-03T16:36:51.123982Z",
+      "value": "30"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M1",
+      "timestamp": "2018-12-03T16:36:22.259367Z",
+      "value": "10"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M0",
+      "timestamp": "2018-12-03T16:36:51.122635Z",
+      "value": "0"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M8",
+      "timestamp": "2018-12-03T16:36:51.126167Z",
+      "value": "80"
+    },
+    {
+      "source": "WV04",
+      "state": "good",
+      "symbol": "M6",
+      "timestamp": "2018-12-03T16:36:51.125295Z",
+      "value": "60"
+    }
+  ],
+  "timestamp": "2018-12-03T16:53:55Z"
+}

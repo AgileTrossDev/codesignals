@@ -1,112 +1,82 @@
-// O(N) Algorithm to find the next largest number in array/vector.
-//
-// It utlitizes a stack to match next largest element.
-// The stack tracks unmatched elements by their index.
-//
-// We start with pushing index 0 on to the stack,
-// and then iterate through the vector attempting
-// to find the next largest element. 
-//
-// During the iteration, if an element is smaller,
-// then the current element trying to be matched,
-// we then stick that element on the stack and try
-// to then find the next element larger then that 
-// element.   
-//
-// Once we find an element larger than the top of
-// the stack, we pop the stack and set result 
-// for that element location.  We continue 
-// to set the result of next element in the stack if 
-// the current indexed value is the larger than the 
-// top of the stack.
-//
-// Once we looped through all elements, we finish
-// off the results by popping the stack and setting
-// all to -1/invalid. 
-//
-// Big (N) because loop through input once, placing the 
-// value onto the stack and then processing the stack.
-// So we traverse N twice.
-//
-//
-// Applying this solution to the future....
-// Draw out how I would manually solve phyical representation 
-// of answer.  This might look like leader/follower index, which
-// vary well might be a simpler solution, but notice how
-// when the leader passes over element to be later processed,
-// it is sort of like placing them on the stack.
-
-
-#include<iostream>
-#include<vector>
-#include<stack>
+#include <iostream>
+#include <stack>
+#include <vector>
 
 
 using std::cout;
 using std::endl;
-using std::stack;
 using std::vector;
-
+using std::stack;
 
 typedef vector<int> input_t;
-typedef vector<int> tracker_t;
+typedef vector<int> result_t;
 typedef stack<int> worker_t;
 
+void process(input_t &i, result_t &r) {
+   worker_t s;
 
 
-tracker_t process(input_t &input) {
+   // Push the first element on to stack
+   s.push(0);
+  
+   for (size_t index= 1;index<r.size();index++){
 
-  tracker_t tracker(input.size(),-1);
-  worker_t worker;
+      // Get next current
+      int cur = i[index];
+
+      // Set largest element to current for items in queue.
+      while (!s.empty() && i[s.top()] < cur){
 
 
-  worker.push(0);
-  for (int i = 0; i<input.size();i++) {
-    int cur = input[i];
-   
-    while (!worker.empty() && cur > input[worker.top()]) {
-      tracker[worker.top()] = input[i];
-      worker.pop();
-
-    } 
-    worker.push(i);
+          /// Found next element
+          r[s.top()] = cur;
+          s.pop();
  
+       }
+      s.push(index);
+    }
 
-  }
-
-  while ( !worker.empty()) {
-    tracker[worker.top()] = -1;
-    worker.pop();
-  }
-
-
-  return tracker;
+    while (!s.empty()){
+         r[s.top()] = -1;
+         s.pop();
+    }
 }
 
 
 
-void disp(input_t &i) {
-  for (input_t::iterator itr = i.begin(); itr != i.end(); itr++) 
-    cout << *itr << " ";
+void disp_result(input_t &i, result_t &r) {
 
-  cout << endl;
+   cout << "INPUT: ";
+   for(input_t::iterator itr = i.begin(); itr != i.end();itr++)
+     cout << (*itr )<< " ";
 
+
+   cout << endl;
+
+
+   cout << "RESULT: ";
+
+
+   for(result_t::iterator itr = r.begin(); itr != r.end();itr++)
+     cout << (*itr )<< " ";
+
+   cout << endl;
 }
 
 
-int main(void) {
-   vector<vector<int> > inputs ={ {1,3,4,-5,5},
-                               {5,4,3,2,1},
-                               {1,5,3,1,6,9,11,2,22}
-                              };
+bool test_case_1() {
+    input_t i = {1, 3, 2, 4 };
+    result_t r (4,-1);
 
-   for (size_t i =0; i<inputs.size();i++) {
-     tracker_t output = process(inputs[i]);
-     cout << "INPUT: " ;
-     disp(inputs[i]);
+    process(i,r);
+    disp_result(i,r);
 
-     cout << "OUTPUT: ";
-     disp(output);
-   }
+    return true;
+
+}
+ 
+int main (void) {
+  bool res = test_case_1();
+  cout << "TC 1: " <<res << endl;
 
 }
