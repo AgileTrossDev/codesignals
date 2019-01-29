@@ -117,25 +117,24 @@ Node * build_dict(names_t names) {
 //   2. index at last matching letter and typos -> all Under are valid
 //
 //
-// 1. the typed in address is identical to the prefix of the object's address;
-// 2. they differ only by one symbol;
-// user's input has one extra symbol;
-// user's input has one missing symbol.
+// Dive on these cases
+//    1. the typed in address is identical to the prefix of the object's address;
+//    2. they differ only by one symbol;
+//    3. user's input has one extra symbol;
+//    4. user's input has one missing symbol.
 void find_matches(Node *root, string wrd, tracker_t &tracker,  int typos = 0, int index = 0) {
 
     Node * nxt = nullptr;
     
     // Check to see if we are finalizing the word search
     if (index == wrd.size()-2 && typos == 0) {
-        // Base Case 1.
+        // Base Case 1
         root->find_complete_words(tracker);
-        
     } else if (index == wrd.size()) {
-        // Reached end of pre-fix, so anything below that is valid is a suggestion
+        // Base Case 2
         root->find_complete_words(tracker);
     } else {
         // Still more letters to traverse
-        
         nxt = root->find_child(wrd[index]);
         
         if (nxt != nullptr && typos == 0) {
