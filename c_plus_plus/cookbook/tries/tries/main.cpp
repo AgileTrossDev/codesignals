@@ -34,9 +34,9 @@ struct Node {
 
     bool is_valid(string wrd, int i =0);
     void find_words(tracker_t &tracker); 
-    void find_matches(string wrd, tracker_t &tracker, int allowed =1, int typos=0, int index=0);
+    void find_matches(string wrd, tracker_t &tracker, int allowed =1, int typos=0, int index=0,string so_Far = "");
     Node * find_child(char v); 
-    Node * find_grand_child(char v);
+    
     
     char val;
     int word;
@@ -52,16 +52,6 @@ Node * Node::find_child(char v) {
         return nullptr;
 }
 
-
-Node * Node::find_grand_child(char v) {
-         v = tolower(v);
-        Node * fnd = nullptr;
-        for (child_t::iterator i = children.begin(); i != children.end(); i++) {
-            fnd = i->second->find_child(v);
-            if (fnd != nullptr) break;
-        }
-        return fnd;
-}
 
 bool Node::is_valid(string wrd, int i) {
     Node * chld = find_child(wrd[i]);
@@ -89,35 +79,31 @@ void Node::find_words(tracker_t &tracker) {
 
 
 
-void Node::find_matches(string wrd, tracker_t &tracker, int allowed, int typos, int index) {
-   if (val != wrd[index]) typos++;
-   if (allowed<typos) return;
-
-   if(index == wrd.size()-2 && typos<allowed) {
-       cout << wrd[index] << " -> FINDING ALL WORDS CASE 1" << " " << typos << endl;
-
-       find_words(tracker);
-   } else if (index == wrd.size()-1) {
-       cout << wrd[index] << " -> FINDING ALL WORDS CASE 2" << " " << typos <<endl;
-       find_words(tracker); 
-   } 
-
-   Node * nxt = find_child(wrd[index]);
-   if (nxt != nullptr) nxt->find_matches(wrd,tracker,allowed, typos,index+1);
-     
-   typos++;
-   index++;
-
-   // Missing symbol case
-   nxt = find_child(wrd[index]);
-   if (nxt != nullptr) nxt->find_matches(wrd,tracker,allowed, typos,index+1);
-
-   // Extra symbol case
-   for (child_t::iterator i = children.begin(); i != children.end(); i++) {
-      if (i->first == wrd[index-1] || i->first == wrd[index]) continue;
-      i->second->find_matches(wrd,tracker,allowed, typos,index+1);
-   }
-
+// Find all canditates that match wrd.  Factors is possible typos (missing, extra, wrong)
+// wrd - prefix
+// tracker - holds integers of canditates
+// allowed - number of typos allowed
+// typos - number of errors found
+// index - index of character we are looking for
+// so_Far - Prefix path so far
+void Node::find_matches(string wrd, tracker_t &tracker, int allowed, int typos, int index, string so_Far) {
+    so_Far.push_back(val);
+    cout << "wrd:" << wrd << " index: " << index << " -> " << wrd[index] << " TYPOS: " << typos << " " << val << " " << so_Far << endl;
+   
+    if (allowed<typos) return;
+    if(index == wrd.size()) {
+        find_words(tracker);
+    }
+    
+    for (child_t::iterator i = children.begin(); i != children.end(); i++) {
+        if (tolower(wrd[index]) == i->first)
+            i->second->find_matches( wrd, tracker,  allowed, typos, index+1, so_Far);
+        else if (tolower(wrd[index+1]) == i->first)
+            i->second->find_matches( wrd, tracker,  allowed, typos+1, index+2, so_Far);
+        else
+            i->second->find_matches( wrd, tracker,  allowed, typos+1, index+1, so_Far);
+    }
+    
 }
 
 
@@ -184,7 +170,87 @@ void disp_t(tracker_t &tracker, names_t names) {
 }
 
 
+void test_case_9() {
+    cout << "\n\nTEST CASE 9:" << endl;
+    names_t names =  {  "loocationnnn",
+        "lcationaaaa"};
+    
+    Node * root = build_dict(names);
+    disp_tries(root);
+    
+    tracker_t tracker;
+    root->find_matches("Location",tracker);
+    cout <<"TRACKER: " << tracker.size() << endl;
+    disp_t(tracker,names);
+}
+
+
+void test_case_8() {
+    cout << "\n\nTEST CASE 8:" << endl;
+    names_t names =  {  "Bat building",
+        "Cats exhibition",
+        "Cramp",
+        "cat avenue"};
+    
+    Node * root = build_dict(names);
+    //  disp_tries(root);
+    
+    tracker_t tracker;
+    root->find_matches("cat",tracker);
+    cout <<"TRACKER: " << tracker.size() << endl;
+    disp_t(tracker,names);
+}
+
+
+void test_case_7() {
+    cout << "\n\nTEST CASE 7:" << endl;
+    names_t names =  {  "Cramp" };
+    Node * root = build_dict(names);
+    //  disp_tries(root);
+    
+    tracker_t tracker;
+    root->find_matches("cat",tracker);
+    cout <<"TRACKER: " << tracker.size() << endl;
+    disp_t(tracker,names);
+}
+
+void test_case_6() {
+    cout << "\n\nTEST CASE 6:" << endl;
+    names_t names =  {  "Ramble On Rose" };
+    Node * root = build_dict(names);
+    //  disp_tries(root);
+    
+    tracker_t tracker;
+    root->find_matches("cat",tracker);
+    disp_t(tracker,names);
+}
+
+void test_case_5() {
+    cout << "\n\nTEST CASE 5:" << endl;
+    names_t names =  {  "At street" };
+    Node * root = build_dict(names);
+    //  disp_tries(root);
+    
+    tracker_t tracker;
+    root->find_matches("cat",tracker);
+    disp_t(tracker,names);
+}
+
+
+void test_case_4() {
+    cout << "\n\nTEST CASE 4:" << endl;
+    names_t names =  {  "Bat building" };
+    Node * root = build_dict(names);
+    //  disp_tries(root);
+    
+    tracker_t tracker;
+    root->find_matches("cat",tracker);
+    disp_t(tracker,names);
+}
+
+
 void test_case_3() {
+  cout << "\n\nTEST CASE 3:" << endl;
   names_t names =  {  "Bat building",
                       "Cast exhibition",
                       "At street",
@@ -228,8 +294,14 @@ void test_case_1() {
 // Main
 //----------------------------------------------------------------------------------------
 int main(void) {
-   test_case_1();
-   test_case_2();
-   test_case_3();
+   //test_case_1();
+   //test_case_2();
+    //test_case_3();
+    //test_case_4();
+    //test_case_5();
+    //test_case_6();
+     //test_case_7();
+    // test_case_8();
+    test_case_9();
 
 }
