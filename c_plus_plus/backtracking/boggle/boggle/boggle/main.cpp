@@ -64,6 +64,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <algorithm>
 
 using std::vector;
 using std::map;
@@ -72,6 +73,7 @@ using std::min;
 using std::max;
 using std::cout;
 using std::endl;
+using std::sort;
 
 
 //===========================================================================
@@ -123,6 +125,7 @@ void boogle(board_t &board,int row, int col, Node * root, result_t &r,visited_t 
     if (v[row][col]) return;
     
     so_far.push_back(board[row][col]);
+    cout << "SO_FAR: " << so_far << endl;
     
     if (root->valid){
         r.push_back(so_far);
@@ -159,6 +162,7 @@ result_t wordBoggle(board_t board, words_t words) {
     // Search for Board
     for (int row = 0; row < board.size(); row++){
         for (int col = 0; col < board[row].size(); col++ ){
+            cout << "STARTING: " << board[row][col] << endl;
             Node * index = root->has_child(board[row][col]);
             if (index !=nullptr) boogle(board,row,col,index,r,v);
         
@@ -188,9 +192,10 @@ void test_case_3(){
     
     
     board_t board=  {{'A','X','V','W'},
-        {'A','L','T','I'},
-         {'T','T','J','R'}};
-words_t words = {"AXOLOTL",
+                     {'A','L','T','I'},
+                     {'T','T','J','R'}};
+         
+    words_t words = {"AXOLOTL",
         "TAXA",
         "ABA",
         "VITA",
@@ -244,7 +249,7 @@ void test_case_1() {
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    test_case_1();
+    //test_case_1();
     test_case_3();
     return 0;
 }
