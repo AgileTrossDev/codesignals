@@ -62,14 +62,38 @@ string gen_output(group_t &r) {
 }
 
 
-void solve(group_t &a, int sum, group_t &r){
-
-
+void solve(iv_t &a, int sum, int index, group_t &r, iv_t &cur, int value){
+   if (sum == value) {
+      // perfect
+      r.push_back(cur);
+      return;
+   } else (sum <value+a[index] ) {   
+      // Busted
+      return;
+   } else {
+      // Add to the party
+      value = value +a[index];
+      for (int i=index; i<a.size();i++) {
+        if (a[i] > sum) break;
+        cur.push_back(a[i]);
+        solve(a, sum, i, r, cur, value);
+        cur.pop_back();
+      }
+   }
 }
 
 std::string combinationSum(std::vector<int> a, int sum) {
    goup_t r;
-   solve(a,sum,r);
+   iv_t cur;
+   
+   for (int i=0; i<a.size();i++) {
+       if (a[i] > sum) break;
+       if (a[i] > sum/2 && a[i] < sum ) continue;
+
+       cur.push_back(a[i]);
+       solve(a,sum,i, r, cur,a[i]);
+       cur.pop_back();
+   }
    return gen_output(r);
 }
 
