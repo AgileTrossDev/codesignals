@@ -52,8 +52,11 @@ string gen_output(group_t &r) {
    string output;
    for(int i =0; i<r.size();i++){
       output.push_back('(');
-      for (int j=0;j<r[i].size();j++) output.push_back('0' +r[i][j]);
-
+       for (int j=0;j<r[i].size();j++) {
+           output.push_back('0' +r[i][j]);
+           output.push_back(' ');
+       }
+       output.pop_back();
       output.push_back(')');
    }
 
@@ -65,25 +68,28 @@ string gen_output(group_t &r) {
 void solve(iv_t &a, int sum, int index, group_t &r, iv_t &cur, int value){
    if (sum == value) {
       // perfect
+      // cout << cur.size() << endl;
       r.push_back(cur);
       return;
-   } else (sum <value+a[index] ) {   
+   } else if (sum < value + a[index] ) {
       // Busted
       return;
    } else {
       // Add to the party
-      value = value +a[index];
+      // cout << "VAL: " << value << " A: " << a[index] << " S: " << cur.size() << endl;
       for (int i=index; i<a.size();i++) {
-        if (a[i] > sum) break;
-        cur.push_back(a[i]);
-        solve(a, sum, i, r, cur, value);
-        cur.pop_back();
+          if (a[i] > sum) break;
+          cur.push_back(a[i]);
+          solve(a, sum, i, r, cur, value  +a[i] );
+        //  cout << "B: " << cur.back() << " S: " << cur.size() << endl;
+          cur.pop_back();
+       //   cout << "A: " << cur.back() << " S: " << cur.size() << endl;
       }
    }
 }
 
 std::string combinationSum(std::vector<int> a, int sum) {
-   goup_t r;
+   group_t r;
    iv_t cur;
    
    for (int i=0; i<a.size();i++) {
@@ -97,7 +103,18 @@ std::string combinationSum(std::vector<int> a, int sum) {
    return gen_output(r);
 }
 
+// Tests
+
+void test_case_1(){
+    iv_t a = {2, 3, 5, 9};
+    int sum = 9;
+    string res = combinationSum(a,sum);
+    cout << "TC 1: " << res << endl;
+    
+}
+
 int main(void) {
+    test_case_1();
 
 
 }
