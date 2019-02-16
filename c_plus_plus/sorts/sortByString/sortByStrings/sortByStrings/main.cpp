@@ -25,23 +25,32 @@ void swap(string &s, size_t &l, size_t &r) {
 
 
 size_t partition(string &s, m_t &m, size_t  l, size_t r) {
-    char p = m[s[(l+r)/2]];
+   
     
-    cout << "P: " << p << " " << l << "-" << r << " " << ((l+r)/2) <<endl;
+    // Find value to pivot around
+    size_t p = m[s[(l+r)/2]];
     
-    while( l <= r ) {
-        cout << " L-> " << l << " " << r  << " " << s << endl;
+    cout << "P: " << p << " " << l << "-" << r << " | Mid: " << ((l+r)/2) << " Char: " << (s[(l+r)/2]) <<endl;
+    
+    while( l < r ) {
+        //cout << " L-> " << l << " " << r  << " " << s << endl;
         
-        while(m[s[l]] < p) l++;
-        while(m[s[r]] > p) r--;
-        cout << ">>>> " << l << " " << r << endl;
-        if (l <= r) {
-            swap(s,l,r);
+        // Find elements to swap on either side of partition.
+        while(m[s[l]] < p) {
+          //  cout << m[s[l]] << " " << p <<  " " << l << endl;
             l++;
-            r--;
         }
+        while(m[s[r]] > p) r--;
+        
+       // cout << ">>>> " << l << " " << r << endl;
+        
+        if(l>=r) return r;   // No elements to swap
+        swap(s,l,r);
+        l++;
+       
     }
-    return l;
+   
+    return r;
 }
 
 void my_sort(string &s, m_t &m, size_t l, size_t r) {
@@ -54,10 +63,8 @@ void my_sort(string &s, m_t &m, size_t l, size_t r) {
     
     cout << ">> S: " << s <<  " " << index << endl;
     
-    if (l<r) {
-        my_sort(s,m,l,index-1);
-        my_sort(s,m,index,r);
-    }
+    my_sort(s,m,l,index);
+    my_sort(s,m,index+1,r);
 }
 
 
@@ -108,8 +115,11 @@ void tc_0a() {
     size_t b = partition(s, m, l, r);
     cout << "R: " << b << " " << s << endl;
     
-
-    b = partition(s, m, l, b-1);
+    
+    b = partition(s, m, l, b);
+    cout << "R: " << b << " " << s << endl;
+    
+    b = partition(s, m, b+1, 5);
     cout << "R: " << b << " " << s << endl;
     
     
@@ -134,9 +144,9 @@ void tc_0() {
 }
 // ### MAIN ###
 int main(void) {
-    //tc_0a();
+    tc_0b();
     //tc_1();
     //tc_2();
     //tc_3();
-    tc_4();
+    //tc_4();
 }
