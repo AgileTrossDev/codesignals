@@ -9,71 +9,30 @@ using std::string;
 
 // ### SOLUTION ####
 
-typedef map<char,int> m_t;
-
-void build_map(string k, m_t &m) {
-   for(int i = 0;i<k.length();i++)
-      m[k[i]]= i;
-}
-
-void swap(string &s, size_t &l, size_t &r) {
-    //cout << "SWAPPING: " << l << " " << s[l] << " " << r << " " << s[r] << endl;
-    char tmp = s[l];
-    s[l] = s[r];
-    s[r] = tmp;
-}
-
-
-size_t partition(string &s, m_t &m, size_t  l, size_t r) {
-   
-    
-    // Find value to pivot around
-    size_t p = m[s[(l+r)/2]];
-    
-    cout << "P: " << p << " " << l << "-" << r << " | Mid: " << ((l+r)/2) << " Char: " << (s[(l+r)/2]) <<endl;
-    
-    while( l < r ) {
-        //cout << " L-> " << l << " " << r  << " " << s << endl;
-        
-        // Find elements to swap on either side of partition.
-        while(m[s[l]] < p) {
-          //  cout << m[s[l]] << " " << p <<  " " << l << endl;
-            l++;
-        }
-        while(m[s[r]] > p) r--;
-        
-       // cout << ">>>> " << l << " " << r << endl;
-        
-        if(l>=r) return r;   // No elements to swap
-        swap(s,l,r);
-        l++;
-       
-    }
-   
-    return r;
-}
-
-void my_sort(string &s, m_t &m, size_t l, size_t r) {
-    
-    //cout << "MY SORT: " << l << " " << r << endl;
-    
-    if (l>=r || s.empty()) return;
-    
-    size_t index = partition(s,m,l,r);
-    
-    cout << ">> S: " << s <<  " " << index << endl;
-    
-    my_sort(s,m,l,index);
-    my_sort(s,m,index+1,r);
-}
-
-
 std::string sortByString(std::string s, std::string t) {
-  m_t m;
-  build_map(t,m);
-  my_sort(s,m,0,s.size()-1);
-  return s; 
+    map<char,int> tracker;
+    
+    for (int i =0;  i<s.length(); i++){
+        map<char,int>::iterator itr = tracker.find(s[i]);
+        if (itr == tracker.end())
+            tracker[s[i]] = 1;
+        else
+            tracker[s[i]] = tracker[s[i]] +1;
+    }
+    
+    string result = "";
+    
+    
+    for (int i=0; i < t.length(); i++) {
+        if (tracker.end() == tracker.find(t[i])) continue;
+        for (int j = 0; j < tracker[t[i]];j++)
+            result.push_back(t[i]);
+    }
+    
+    return result;
+    
 }
+
 
 // ##### TESTS ######
 
