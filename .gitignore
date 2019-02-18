@@ -2,3 +2,5 @@ venv/
 *.xcodeproj/
 .xcodeproj/
 *.swp
+*.out
+a.out
