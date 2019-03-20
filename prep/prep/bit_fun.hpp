@@ -10,5 +10,7 @@
 #define bit_fun_hpp
 
 #include <stdio.h>
+int move_left(unsigned int n, int shift);
+
 
 #endif /* bit_fun_hpp */
