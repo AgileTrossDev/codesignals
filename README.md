@@ -1,0 +1,3 @@
+- minSubstringWithAllChars - Sliding Window problem from CodeSignal
+- composeRanges - Simple Dynamic problem.  Not really sure why it was considered DP.
+- mapDecoding - Dynamic Problem using a bottom-approach with modulo 10^9+7 applied to prevent INT overflow
