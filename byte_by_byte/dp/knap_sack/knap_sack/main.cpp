@@ -15,7 +15,13 @@
 // Optimal Solution - Best case of using this item with the optimal solution for w-item.weight
 //                    OR  not to use this item at all and try something else.
 //
-//.Overlapping Problem - Same weight and same collection of items available.
+// Overlapping Problem - Same weight and same collection of items available.
+//
+//
+// Think about this....
+//    TOP-DOWN - knapsack(items,w,i) --> Max Value of items using i and all itmes after it.
+//
+//    BOTTOM-UP - Knapsack(items,w,i) --> max-value of items up-to, but not including item i.
 //
 #include <iostream>
 #include <vector>
@@ -56,11 +62,9 @@ int top_down(items_t &items, int w, int i, cache_t &cache ) {
         cache[w] = rec;
     }
     
-    
     // Now perform calculation
     int best = 0;
     if ((w - items[i].weight) < 0) {
-        cout << "WTF?" << endl;
         // Can't pick this item at this point because it is too big,
         // so best case is to use the next item
         best = top_down(items,w,i+1,cache);
@@ -87,6 +91,46 @@ int top_down(items_t &items, int w) {
     int res = top_down(items,w, 0, cache);
     return res;
     
+}
+
+
+int bottom_up(items_t &items, int w) {
+    
+    int best = 0;
+    
+    // Cache item
+    vector <vector<int>> cache(items.size()+1,vector<int>(w+1,-1));
+   
+    // For each item and weight, compute the max
+    // value of the items up to that item that
+    // doesn't go over W weight
+    //
+    // outter-loop(i) tells us what item to consider
+    //
+    // inner-loop - tells up what weight to consider
+    //
+    // For each cell, we need to decide whether we get
+    // a greater value at that weight by including or
+    // excluding item i - 1.
+    for (int i = 1; i <= items.size(); i++) {
+        for (int j = 0; j <= w; j++) {
+            if (items[i-1].weight > j) {
+                // Busted, so we use value for previous item, but same weight
+                cache[i][j] = cache[i-1][j];
+            } else {
+                // Need to decide if adding this item is better than the optimal
+                // answer with the previous item
+                cache[i][j] = max(cache[i-1][j], cache[i-1][j-items[i-1].weight] +
+                                       items[i-1].val);
+            }
+        } }
+    return cache[items.size()][w];
+    
+    
+    
+    // Build-up all weights
+   
+    return best;
 }
 
 items_t build_items(){
